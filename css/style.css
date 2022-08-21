@@ -21,10 +21,72 @@ html {
 }
 
 body {
+  padding: 0;
+  margin: 0;
   font-family: "Poppins", sans-serif;
 }
 
 /* START PROJECT */
+
+/* HEADER */
+
+.home {
+  padding: 30px;
+  margin: 0;
+  background-image: url('../assets/background.png');
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  font-size: 3rem;
+  color: var(--clr-white);
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu ul li {
+  padding: 0px 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: var(--clr-white);
+  font-size: 1.25rem;
+}
+
+.menu ul li .special {
+  color: var(--clr-blue);
+  padding: 10px 30px;
+  background-color: var(--clr-white);
+  border-radius: 10px;
+}
+
+.legend {
+  padding: 275px 300px;
+  font-size: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: var(--clr-white);
+  justify-content: space-around;
+  align-items: center;
+}
+
+.legend .bold {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
 
 /* ARTICLE ABOUT */
 
