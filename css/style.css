@@ -47,8 +47,8 @@ body {
 }
 
 .offers__btn {
-  margin-right: .5rem;
-  margin-left: .5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
   background-color: var(--clr-white);
   color: var(--clr-gray);
   border-radius: 0.625rem;
@@ -66,6 +66,28 @@ body {
 .offers__btn--active {
   background-color: var(--clr-blue);
   color: var(--clr-white);
+}
+
+.offers__container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+}
+
+.offer-card {
+  border-radius: 3.125rem;
+  padding: .5rem;
+}
+
+.offer-card__header {
+  display: flex;
+  align-items: center;
+}
+
+.offer-card__image {
+  border-radius: 3.125rem;
 }
 
 /* ARTICLE ABOUT */
