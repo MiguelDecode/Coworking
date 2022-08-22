@@ -1,68 +1,133 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Travel Agency Treloo</title>
-  <!-- Links to typography -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
-  <!-- Link to style sheet -->
-  <link rel="stylesheet" href="./css/style.css" />
-  <!-- Link to javascript file -->
-  <script src="./javascript/index.js" defer></script>
-</head>
-
-<body>
-  <header class="home"></header>
-  <main class="main">
-    <section class="search"></section>
-    <section class="offers"></section>
-    <section class="about" id="about">
-      <div class="about__art">
-        <div class="about__image-container">
-          <div class="about__cards about__cards--destination">
-            <p class="about__numbers">300+</p>
-            <p class="about__text">Destinations</p>
-          </div>
-          <div class="about__cards about__cards--tourists">
-            <p class="about__numbers">5000+</p>
-            <p class="about__text">Tourists</p>
-          </div>
-          <div class="about__cards about__cards--hotels">
-            <p class="about__numbers">150+</p>
-            <p class="about__text">Hotels</p>
-          </div>
-          <img class="about__image" src="./assets/man-rocks-sea.jpg" alt="Man over rocks seeing the sea" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Agency Treloo</title>
+    <!-- Links to typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to style sheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Link to javascript file -->
+    <script src="./javascript/index.js" defer></script>
+  </head>
+  <body>
+    <header class="home">
+      <div class="menu">
+        <div class="logo">Treloo</div>
+        <ul>
+          <li><a href="">Review</a></li>
+          <li><a href="">Tips</a></li>
+          <li><a href="">Alerts</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+      </div>
+      <div class="legend">
+        <b class="bold">Discover Your Life, Travel Where You Want</b>
+        Would you explore natur paradise in the world, let's find the best destination in world with us.
+      </div>
+    </header>
+    <main class="main">
+      <section class="search">
+        <div class="menu-2">
+          <ul>
+            <li><a class="flight" href=""><img src="./assets/Airplane Mode On-3.png" alt="Airplane flying">  Flight</a></li>
+            <li><a class="hotel" href=""><img src="./assets/Hotel Star.png" alt="Hotel">  Hotel</a></li>
+          </ul>
         </div>
-      </div>
-      <div class="about__description">
-        <h2 class="about__title">Travel Any Corner of The World With Us</h2>
-        <p class="about__parragraph">
-          Would you explore nature paradise in the world, let’s find the best
-          destination in world with us, Would you explore nature paradise in
-          the world, let’s find the best destination in world with us. Would
-          you explore nature paradise in the world, let’s find the best
-          destination in world with us.
-        </p>
-        <p class="about__parragraph">
-          Would you explore nature paradise in the world, let’s find the best
-          destination in world with us.
-        </p>
-        <button class="contact-us">Contact Us</button>
-      </div>
-    </section>
-    <section class="destination">
-      <div class="destination-title"></div>
-      <div class="destination-navbar"></div>
-      <div class="destination-cards"></div>
-    </section>
-    <section class="opinions"></section>
-  </main>
-  <footer class="footer"></footer>
-</body>
-
+        <div class="search-box">
+            <div class="trip">
+              <div class="origin">
+                <div class="leaving">
+                  Leaving From
+                </div>
+                <span>Dubai</span>
+              </div>
+              <img src="./assets/airplane mode on.png" alt="Travelling">
+              <div class="destination">
+                <div class="going">
+                  Going To
+                </div>
+                <span>New York</span>
+              </div>
+            </div>
+            <div class="date">
+              <div class="origin">
+                <div class="leave">
+                  Leave
+                  <img src="./assets/Airplane Mode On-1.png" alt="Leaving">
+                </div>
+                23 Jan, Sat
+              </div>
+              <img class="planner" src="./assets/planner.png" alt="Calendar">
+              <div class="destination">
+                <div class="return">
+                  Return
+                  <img src="./assets/Airplane Mode On-2.png" alt="Returning">
+                </div>
+                14 Jan, Thu
+              </div>
+            </div>
+            <div class="search-icon">
+              <img class="ellipse" src="./assets/Ellipse 2.png" alt="Ellipse">
+              <img class="line" src="./assets/Line 1.png" alt="Line">
+            </div>
+        </div>
+      </section>
+      <section class="offers"></section>
+      <section class="about" id="about">
+        <div class="about__art">
+          <div class="about__image-container">
+            <div class="about__cards about__cards--destination">
+              <p class="about__numbers">300+</p>
+              <p class="about__text">Destinations</p>
+            </div>
+            <div class="about__cards about__cards--tourists">
+              <p class="about__numbers">5000+</p>
+              <p class="about__text">Tourists</p>
+            </div>
+            <div class="about__cards about__cards--hotels">
+              <p class="about__numbers">150+</p>
+              <p class="about__text">Hotels</p>
+            </div>
+            <img
+              class="about__image"
+              src="./assets/man-rocks-sea.jpg"
+              alt="Man over rocks seeing the sea"
+            />
+          </div>
+        </div>
+        <div class="about__description">
+          <h2 class="about__title">Travel Any Corner of The World With Us</h2>
+          <p class="about__parragraph">
+            Would you explore nature paradise in the world, let’s find the best
+            destination in world with us, Would you explore nature paradise in
+            the world, let’s find the best destination in world with us. Would
+            you explore nature paradise in the world, let’s find the best
+            destination in world with us.
+          </p>
+          <p class="about__parragraph">
+            Would you explore nature paradise in the world, let’s find the best
+            destination in world with us.
+          </p>
+          <button class="contact-us">Contact Us</button>
+        </div>
+      </section>
+      <section class="destination">
+        <div class="destination-title"></div>
+        <div class="destination-navbar"></div>
+        <div class="destination-cards"></div>
+      </section>
+      <section class="opinions"></section>
+    </main>
+    <footer class="footer"></footer>
+  </body>
 </html>
