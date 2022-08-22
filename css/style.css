@@ -59,7 +59,7 @@ body {
 }
 
 .offers__btn:hover {
-  background-color: var(--clr-blue);
+  background-color: hsla(216, 90%, 60%, 0.8);
   color: var(--clr-white);
 }
 
@@ -72,7 +72,6 @@ body {
   display: flex;
   gap: 2rem;
   justify-content: center;
-  align-items: center;
   margin: 4rem;
 }
 
@@ -88,6 +87,77 @@ body {
 
 .offer-card__image {
   border-radius: 3.125rem;
+}
+
+.offer-card__date {
+  writing-mode: vertical-lr;
+  font-size: 1.125rem;
+  color: var(--clr-gray);
+  letter-spacing: .7rem;
+}
+
+.offer-card__data {
+  text-align: left;
+  margin-top: 1rem;
+  padding: 1.5rem;
+}
+
+.tag {
+  border-radius: 6.25rem;
+  font-size: 0.875rem;
+  padding: .1em .8em;
+  margin-right: .5rem;
+}
+
+.tag--relax {
+  color: hsl(329, 81%, 71%);
+  background-color: hsla(329, 81%, 71%, 0.2);
+}
+
+.tag--adventure {
+  color: hsl(240, 81%, 71%);
+  background-color: hsla(240, 81%, 71%, 0.2);
+}
+
+.offer-card__time {
+  color: var(--clr-gray);
+}
+
+.offer-card__place {
+  font-size: 1.5rem;
+  font-weight: var(--fw-semibold);
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.offer-card__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer-card__cost {
+  font-size: 1.5rem;
+}
+
+.offer-card__cost--light {
+  font-size: 1.125rem;
+  color: var(--clr-gray);
+}
+
+.book-now {
+  background-color: hsla(216, 90%, 60%, 0.2);
+  font-size: 0.875rem;
+  color: var(--clr-blue);
+  border-radius: 0.625rem;
+  border: none;
+  padding: 1.5em;
+  transition: all .3s ease-in;
+}
+
+.book-now:hover {
+  color: var(--clr-white);
+  background-color: hsla(216, 90%, 60%, 0.8);
 }
 
 /* ARTICLE ABOUT */
