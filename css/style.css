@@ -26,6 +26,48 @@ body {
 
 /* START PROJECT */
 
+/* ARTICLE OFFERS */
+
+.offers {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4rem;
+  text-align: center;
+}
+
+.offers__title {
+  font-weight: var(--fw-semibold);
+  font-size: 3rem;
+}
+
+.offers__selector {
+  background-color: var(--clr-white);
+  border-radius: 0.625rem;
+}
+
+.offers__btn {
+  margin-right: .5rem;
+  margin-left: .5rem;
+  background-color: var(--clr-white);
+  color: var(--clr-gray);
+  border-radius: 0.625rem;
+  border: none;
+  padding: 1em;
+  font-size: 1.125rem;
+  transition: all 0.3s ease-in;
+}
+
+.offers__btn:hover {
+  background-color: var(--clr-blue);
+  color: var(--clr-white);
+}
+
+.offers__btn--active {
+  background-color: var(--clr-blue);
+  color: var(--clr-white);
+}
+
 /* ARTICLE ABOUT */
 
 .about {
