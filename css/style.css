@@ -252,6 +252,10 @@ body {
   border-radius: 40%;
 }
 
+.search-icon:hover {
+  cursor: pointer;
+}
+
 .search-icon img {
   position: relative;
 }
