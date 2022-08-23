@@ -499,3 +499,221 @@ body {
 .contact-us:hover {
   opacity: 75%;
 }
+
+/* Section Register*/
+.register{
+  position: absolute;
+  width: 100%;
+  height: 822px;
+  left: 0px;
+}
+
+.cajaTexto{
+  position: absolute;
+  width: 1180px;
+  height: 500px;
+  left: 130px;
+  top: 80px;
+
+  background-color: darkgreen;
+  border-radius: 100px;
+}
+
+.cajaTexto span{
+  position: absolute;
+  width: 743px;
+  height: 151px;
+  left: 348px;
+  top: 194px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.cajaTexto button{
+  position: absolute;
+  width: 220px;
+  height: 80px;
+  left: 610px;
+  top: 385px;
+
+  filter: drop-shadow(4px 8px 25px rgba(62, 134, 245, 0.25));
+
+  background: #FFFFFF;
+  border-radius: 25px;
+}
+
+.navFoot{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items:flex-start;
+  padding: 0px;
+  gap: 50px;
+
+  position: absolute;
+  width: 407px;
+  height: 36px;
+  left: 803px;
+  top: 703px;
+}
+
+.navFoot ul{
+  display: flex;
+  justify-content:space-between;
+  list-style: none;
+}
+
+.navFoot ul li{
+  display: inline;
+  position: relative;
+}
+
+.navFoot ul li a{
+  position: relative;
+  text-decoration: none;
+  color: var(--clr-white);
+  font-size: 1.25rem;
+  margin: 0 5px;
+  padding: 10px 10px;
+}
+
+.navFoot ul li a:hover {
+  color: var(--clr-blue);
+  padding: 10px 20px;
+  background-color: var(--clr-white);
+  border-radius: 10px;
+}
+
+.reserved{
+  position: absolute;
+  width: 972px;
+  height: 42px;
+  left: 130px;
+  top: 18px;
+  font-size: 20px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+/* Frame 9 
+position: absolute;
+width: 1440px;
+height: 822px;
+left: 0px;
+top: 4724px;
+/* Frame 1 
+
+/* Auto layout 
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 50px;
+
+position: absolute;
+width: 407px;
+height: 36px;
+left: 903px;
+top: 703px;
+
+/* © 2022 Treloo LLC - All right reserved. *
+
+position: absolute;
+width: 372px;
+height: 42px;
+left: 130px;
+top: 700px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 42px;
+/* identical to box height *
+
+/* Black-75 *
+color: rgba(0, 0, 0, 0.5);
+
+
+
+/* unsplash:Q1p7bh3SHj8 *
+
+position: absolute;
+width: 1180px;
+height: 500px;
+left: 130px;
+top: 80px;
+
+background: url(.jpg), #3E86F5;
+border-radius: 100px;
+
+
+/* Don’t Miss The 50% Discount if You register Today *
+
+position: absolute;
+width: 743px;
+height: 151px;
+left: 348px;
+top: 194px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+text-align: center;
+
+/* White-primary *
+color: #FFFFFF;
+
+
+
+/* Group 17 *
+
+position: absolute;
+width: 220px;
+height: 80px;
+left: 610px;
+top: 385px;
+
+filter: drop-shadow(4px 8px 25px rgba(62, 134, 245, 0.25));
+
+
+/* Rectangle 8 *
+
+position: absolute;
+width: 220px;
+height: 80px;
+left: 610px;
+top: 385px;
+
+/* White-primary *
+background: #FFFFFF;
+border-radius: 25px;
+
+
+/* Register Today *
+
+position: absolute;
+width: 150px;
+height: 30px;
+left: 645px;
+top: 410px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height *
+
+/* Blue-primary *
+color: #3E86F5;
+
+*/
