@@ -4,6 +4,7 @@
   --clr-black: hsl(0, 0%, 0%);
   --clr-blue: hsl(216, 90%, 60%);
   --clr-gray: hsl(0, 0%, 49%);
+  --clr-bg: hsl(0, 0%, 97%);
   /* Typography */
   --fw-regular: 400;
   --fw-semibold: 600;
@@ -24,6 +25,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  background-color: var(--clr-bg);
 }
 
 /* START PROJECT */
@@ -33,7 +35,7 @@ body {
 .home {
   padding: 30px;
   margin: 0;
-  background-image: url('../assets/background.png');
+  background-image: url("../assets/background.png");
   height: 100%;
   width: 100%;
   z-index: 1;
@@ -105,7 +107,7 @@ body {
 
 .search .menu-2 {
   display: flex;
-  position: relative;  
+  position: relative;
   font-size: 0.7rem;
   font-weight: 600;
   background-color: var(--clr-white);
@@ -175,7 +177,7 @@ body {
   margin: 0 0 0 40px;
   height: 100px;
   border: 1px solid lightgray;
-  border-radius: 15px; 
+  border-radius: 15px;
 }
 
 .trip img {
@@ -213,7 +215,7 @@ body {
   font-size: 0.7rem;
   color: var(--clr-gray);
   display: flex;
-  align-items: center; 
+  align-items: center;
   gap: 10px;
 }
 
@@ -235,7 +237,7 @@ body {
   font-size: 0.7rem;
   color: var(--clr-gray);
   display: flex;
-  align-items: center; 
+  align-items: center;
   gap: 10px;
 }
 
@@ -316,7 +318,7 @@ body {
 
 .offer-card {
   border-radius: 3.125rem;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .offer-card__header {
@@ -332,7 +334,7 @@ body {
   writing-mode: vertical-lr;
   font-size: 1.125rem;
   color: var(--clr-gray);
-  letter-spacing: .7rem;
+  letter-spacing: 0.7rem;
 }
 
 .offer-card__data {
@@ -344,8 +346,8 @@ body {
 .tag {
   border-radius: 6.25rem;
   font-size: 0.875rem;
-  padding: .1em .8em;
-  margin-right: .5rem;
+  padding: 0.1em 0.8em;
+  margin-right: 0.5rem;
 }
 
 .tag--relax {
@@ -365,8 +367,8 @@ body {
 .offer-card__place {
   font-size: 1.5rem;
   font-weight: var(--fw-semibold);
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .offer-card__container {
@@ -391,7 +393,7 @@ body {
   border-radius: 0.625rem;
   border: none;
   padding: 1.5em;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .book-now:hover {
@@ -501,14 +503,14 @@ body {
 }
 
 /* Section Register*/
-.register{
+.register {
   position: absolute;
   width: 100%;
   height: 822px;
   left: 0px;
 }
 
-.cajaTexto{
+.cajaTexto {
   position: absolute;
   width: 1180px;
   height: 500px;
@@ -519,24 +521,24 @@ body {
   border-radius: 100px;
 }
 
-.cajaTexto span{
+.cajaTexto span {
   position: absolute;
   width: 743px;
   height: 151px;
   left: 348px;
   top: 194px;
 
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 72px;
   text-align: center;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.cajaTexto button{
+.cajaTexto button {
   position: absolute;
   width: 220px;
   height: 80px;
@@ -545,15 +547,15 @@ body {
 
   filter: drop-shadow(4px 8px 25px rgba(62, 134, 245, 0.25));
 
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 25px;
 }
 
-.navFoot{
+.navFoot {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  align-items:flex-start;
+  align-items: flex-start;
   padding: 0px;
   gap: 50px;
 
@@ -564,18 +566,18 @@ body {
   top: 703px;
 }
 
-.navFoot ul{
+.navFoot ul {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   list-style: none;
 }
 
-.navFoot ul li{
+.navFoot ul li {
   display: inline;
   position: relative;
 }
 
-.navFoot ul li a{
+.navFoot ul li a {
   position: relative;
   text-decoration: none;
   color: var(--clr-white);
@@ -591,7 +593,7 @@ body {
   border-radius: 10px;
 }
 
-.reserved{
+.reserved {
   position: absolute;
   width: 972px;
   height: 42px;
