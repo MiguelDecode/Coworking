@@ -283,6 +283,8 @@ body {
 }
 
 .offers__selector {
+  display: inline-block;
+  padding: .5rem;
   background-color: var(--clr-white);
   border-radius: 0.625rem;
 }
@@ -294,7 +296,7 @@ body {
   color: var(--clr-gray);
   border-radius: 0.625rem;
   border: none;
-  padding: 1em;
+  padding: .7em 1em;
   font-size: 1.125rem;
   transition: all 0.3s ease-in;
 }
@@ -318,7 +320,8 @@ body {
 
 .offer-card {
   border-radius: 3.125rem;
-  padding: 0.5rem;
+  padding: 1.5rem .3rem .3rem 1.5rem;
+  background-color: var(--clr-white);
 }
 
 .offer-card__header {
@@ -368,7 +371,7 @@ body {
   font-size: 1.5rem;
   font-weight: var(--fw-semibold);
   margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 .offer-card__container {
@@ -378,6 +381,7 @@ body {
 }
 
 .offer-card__cost {
+  margin: 0;
   font-size: 1.5rem;
 }
 
