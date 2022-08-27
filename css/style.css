@@ -15,7 +15,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  outline: 1px solid red;
 }
 
 img {
@@ -325,19 +324,18 @@ body {
 
 .offer-card {
   border-radius: 3.125rem;
-  padding: 1.5rem 0.3rem 0.3rem 1.5rem;
   background-color: var(--clr-white);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: start;
+  padding: 1.5rem;
+  min-width: 380px;
 }
 
 .offer-card__header {
-  display:flex;
+  display: flex;
 }
 
 .offer-card__image {
+  width: 290px;
+  height: 270px;
   border-radius: 3.125rem;
   object-fit: cover;
 }
@@ -350,10 +348,7 @@ body {
 }
 
 .offer-card__data {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: space-between;
+  text-align: left;
   margin-top: 1rem;
 }
 
@@ -406,13 +401,36 @@ body {
   color: var(--clr-blue);
   border-radius: 0.625rem;
   border: none;
-  padding: 1.5em;
+  padding: 1em 1.5em;
   transition: all 0.3s ease-in;
 }
 
 .book-now:hover {
   color: var(--clr-white);
   background-color: hsla(216, 90%, 60%, 0.8);
+}
+
+/* Breakpoint offers */
+@media screen and (max-width: 1312px) {
+  .offers__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .offer-card {
+    display: inline-flex;
+    gap: 1rem;
+  }
+
+  .offer-card__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .offer-card__container {
+    gap: 1rem;
+  }
 }
 
 /* ARTICLE ABOUT */
