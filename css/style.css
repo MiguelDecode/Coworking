@@ -403,6 +403,7 @@ body {
   border: none;
   padding: 1em 1.5em;
   transition: all 0.3s ease-in;
+  text-decoration: none;
 }
 
 .book-now:hover {
