@@ -549,7 +549,8 @@ body {
 
   .about__cards {
     width: 120px;
-    height: 90px;
+    height: 70px;
+    border-radius: 1.125rem;
   }
 
   .about__numbers {
