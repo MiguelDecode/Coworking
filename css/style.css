@@ -22,6 +22,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: rgb(247, 247, 247);
 }
 
 /* START PROJECT */
@@ -125,4 +126,123 @@ body {
 
 .contact-us:hover {
   opacity: 75%;
+}
+
+/* Recommended Destinations */
+
+.recommended-destination {
+  border: 4px solid red;
+  width: 1440px;
+  height: 770px;
+
+}
+
+.header-destination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#destination-title {
+  font-size: 48px;
+  font-weight: var(--fw-semibold);
+  color: #000000;
+  width: 669px;
+  height: 72px;
+}
+
+
+/* NavBar Recommended Destinations */
+
+.nav-bar-recommended-destination{
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px; 
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+.nav-bar-btn{
+  color:hsla(0, 0%, 0%, 0.5);
+  background-color: transparent ;
+  width: 120px;
+  height: 46px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.nav-bar-btn:hover{
+  background-color:var(--clr-white);
+  color:rgba(62, 134, 245, 1) ;
+}
+.nav-bar-btn:active{
+  background-color:var(--clr-white);
+}
+
+/* Destination Card */
+
+.container-recommendend-destination-cards {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  
+}
+.destination-card {
+  background-color: var(--clr-white);
+  width: 280px;
+  height: 293px;
+  border-radius: 25px;
+}
+
+.rating-image{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 260px;
+  background-image: url("https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+}
+
+/*
+#card-beach{
+  background-image: url("https://images.unsplash.com/photo-1501696461415-6bd6660c6742?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#card-palms{
+  background-image: url("https://images.unsplash.com/photo-1454391304352-2bf4678b1a7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.location {
+  background-color: var(--clr-white);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.location img{
+width: 260px;
+height: 200px;
+padding:10px;
+border-radius: 25px;
+justify-content: center;
+align-items: center;
+}
+
+/* .rating {
+ 
+} */
+#card-mountain{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
