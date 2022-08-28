@@ -541,6 +541,39 @@ body {
   opacity: 75%;
 }
 
+@media screen and (max-width: 968px) {
+  .about {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .about__cards {
+    width: 120px;
+    height: 70px;
+    border-radius: 1.125rem;
+  }
+
+  .about__numbers {
+    font-size: 1.125rem;
+  }
+
+  .about__text {
+    font-size: 0.563rem;
+  }
+
+  .about__cards--destination {
+    right: 2rem;
+  }
+  
+  .about__cards--tourists {
+    left: 2rem;
+  }
+  
+  .about__cards--hotels {
+    right: 2rem;
+  }
+}
+
 /* Section Register*/
 .register {
   position: absolute;
