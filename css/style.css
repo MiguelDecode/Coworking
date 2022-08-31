@@ -670,3 +670,171 @@ body {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
 }
+
+/* Recommended Destinations */
+
+/* Container */
+
+.recommended-destination {
+  max-width: 1440px;
+  max-height: 770px;
+}
+
+/* Header */
+
+.header-destination {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#destination-title {
+  font-size: 48px;
+  font-weight: var(--fw-semibold);
+  color: var(--clr-black);
+  max-width: 100%;
+  height: 72px;
+}
+
+
+/* NavBar Recommended Destinations */
+
+.nav-bar-recommended-destination {
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.nav-bar-btn {
+  color: hsla(0, 0%, 0%, 0.5);
+  background-color: transparent;
+  width: 120px;
+  height: 46px;
+  border: none;
+  border-radius: 0.625rem;
+  cursor: pointer;
+}
+
+.nav-bar-btn:hover {
+  background-color: var(--clr-white);
+  color: rgba(62, 134, 245, 1);
+}
+
+.nav-bar-btn:active {
+  background-color: var(--clr-white);
+}
+
+/* Destination Card */
+
+/* Container */
+
+.container-recommendend-destination-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Article */
+
+.destination-card {
+  display: flex;
+  position: relative;
+  background-color: var(--clr-white);
+  width: 280px;
+  height: 293px;
+  border-radius: 1.56rem;
+}
+
+/* Rating */
+
+/* Cover Images */
+
+.container-cov-img {
+  width: 65%;
+  border-radius: 1px solid red;
+  position: absolute;
+  left: 0.625rem;
+  right: 0.625rem;
+  top: 0.625rem;
+  bottom: 0.625rem;
+}
+
+#cov-img-beach {
+  width: 260px;
+  height: 200px;
+  border-radius: 1.56rem;
+}
+
+#star-img {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+#cov-img {
+  width: 16.25rem;
+  height: 12.5rem;
+  border-radius: 1.56rem;
+  position: absolute;
+  left: 0.625rem;
+  right: 0.625rem;
+  top: 0.625rem;
+  bottom: 0.625rem;
+}
+
+/* Rating container */
+
+.rating-container {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  left: 70%;
+  background-color: var(--clr-white);
+  border-radius: 1.56rem;
+}
+
+.rating-container span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+/* Section Location */
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background-color: var(--clr-white);
+  border-radius: 1.56rem;
+}
+
+.kina-mountain-text {
+  margin-bottom: 0;
+  padding-left: 0.625rem;
+}
+
+.cambodia-text {
+  font-style: normal;
+  font-weight: var(--fw-regular);
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 0.625rem;
+}
+
+#location-img {
+  width: 1.06rem;
+  height: 1.06rem;
+}
+

@@ -1,65 +1,64 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel Agency Treloo</title>
-    <!-- Links to typography -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Link to style sheet -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <!-- Link to javascript file -->
-    <script src="./javascript/index.js" defer></script>
-  </head>
-  <body>
-    <header class="home">
-      <div class="menu">
-        <div class="logo">Treloo</div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Agency Treloo</title>
+  <!-- Links to typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <!-- Link to style sheet -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-- Link to javascript file -->
+  <script src="./javascript/index.js" defer></script>
+</head>
+
+<body>
+  <header class="home">
+    <div class="menu">
+      <div class="logo">Treloo</div>
+      <ul>
+        <li><a href="">Review</a></li>
+        <li><a href="">Tips</a></li>
+        <li><a href="">Alerts</a></li>
+        <li><a href="">Blog</a></li>
+      </ul>
+    </div>
+    <div class="legend">
+      <b class="bold">Discover Your Life, Travel Where You Want</b>
+      Would you explore natur paradise in the world, let's find the best destination in world with us.
+    </div>
+  </header>
+  <main class="main">
+    <section class="search">
+      <div class="menu-2">
         <ul>
-          <li><a href="">Review</a></li>
-          <li><a href="">Tips</a></li>
-          <li><a href="">Alerts</a></li>
-          <li><a href="">Blog</a></li>
+          <li><a class="flight" href=""><img src="./assets/Airplane Mode On-3.png" alt="Airplane flying"> Flight</a>
+          </li>
+          <li><a class="hotel" href=""><img src="./assets/Hotel Star.png" alt="Hotel"> Hotel</a></li>
         </ul>
       </div>
-      <div class="legend">
-        <b class="bold">Discover Your Life, Travel Where You Want</b>
-        Would you explore natur paradise in the world, let's find the best destination in world with us.
-      </div>
-    </header>
-    <main class="main">
-      <section class="search">
-        <div class="menu-2">
-          <ul>
-            <li><a class="flight" href=""><img src="./assets/Airplane Mode On-3.png" alt="Airplane flying">  Flight</a></li>
-            <li><a class="hotel" href=""><img src="./assets/Hotel Star.png" alt="Hotel">  Hotel</a></li>
-          </ul>
-        </div>
-        <div class="search-box">
-            <div class="trip">
-              <div class="origin">
-                <div class="leaving">
-                  Leaving From
-                </div>
-                <span>Dubai</span>
-              </div>
-              <img src="./assets/airplane mode on.png" alt="Travelling">
-              <div class="destination">
-                <div class="going">
-                  Going To
-                </div>
-                <span>New York</span>
-              </div>
+      <div class="search-box">
+        <div class="trip">
+          <div class="origin">
+            <div class="leaving">
+              Leaving From
             </div>
-            <div class="date">
+            <span>Dubai</span>
+          </div>
+          <img src="./assets/airplane mode on.png" alt="Travelling">
+          <div class="destination">
+            <div class="going">
+              Going To
+            </div>
+            <span>New York</span>
+          </div>
+        </div>
+        <div class="date">
+        <div class="date">
               <div class="origin">
                 <div class="leave">
                   Leave
@@ -195,11 +194,74 @@
           <button class="contact-us">Contact Us</button>
         </div>
       </section>
-      <section class="destination">
-        <div class="destination-title"></div>
-        <div class="destination-navbar"></div>
-        <div class="destination-cards"></div>
-      </section>
+      <section class="recommended-destination">
+      <header class="header-destination">
+        <h2 id="destination-title">Recommended Destination</h2>
+      </header>
+      <nav class="nav-bar-recommended-destination">
+        <button class="nav-bar-btn" type="button" name="populor" id="populor">Populor</button>
+        <button class="nav-bar-btn" type="button" name="adventure" id="adventure">Adventure</button>
+        <button class="nav-bar-btn" type="button" name="beath" id="beath">Beath</button>
+      </nav>
+      <div class="container-recommendend-destination-cards">
+        <article class="destination-card" id="card-lakemountain">
+          <img id="cov-img"
+            src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80">
+          <div class="rating-container">
+            <span> <img id="star-img" src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="star">3.4</span>
+          </div>
+          <section class="location">
+            <h3 class="kina-mountain-text">Kina Mountain</h3>
+            <span class="cambodia-text"><img id="location-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Pin-location.png" alt="location">Cambodia</span>
+          </section>
+        </article>
+        <article class="destination-card" id="card-mountain">
+          <img id="cov-img"
+            src="https://images.unsplash.com/photo-1508739773434-c26b3d09e071?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="mountain-img">
+          <div class="rating-container">
+            <span><img id="star-img" src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="star">
+              4.5</span>
+          </div>
+          <section class="location">
+            <h3 class="kina-mountain-text">Kina Mountain</h3>
+            <span class="cambodia-text"><img id="location-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Pin-location.png" alt="location">Cambodia</span>
+          </section>
+        </article>
+        <article class="destination-card" id="card-beach">
+          <img id="cov-img"
+            src="https://images.unsplash.com/photo-1501696461415-6bd6660c6742?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+            alt="beach-img">
+          <div class="rating-container">
+            <span><img id="star-img" src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="star">
+              4.2</span>
+          </div>
+          <section class="location">
+            <h3 class="kina-mountain-text">Kina Mountain</h3>
+            <span class="cambodia-text"><img id="location-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Pin-location.png" alt="location">Cambodia</span>
+          </section>
+        </article>
+        <article class="destination-card" id="card-palms">
+          <div class="container-cov-img">
+            <img id="cov-img-beach"
+              src="https://images.unsplash.com/photo-1454391304352-2bf4678b1a7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              alt="beach-img">
+          </div>
+          <div class="rating-container">
+            <span><img id="star-img" src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="star">
+              3.5</span>
+          </div>
+          <section class="location">
+            <h3 class="kina-mountain-text">Kina Mountain</h3>
+            <span class="cambodia-text"><img id="location-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Pin-location.png" alt="location">Cambodia</span>
+          </section>
+        </article>
+      </div>
+    </section>
       <section class="opinions"></section>
       <section class="register">
         <div class="cajaTexto">
