@@ -678,6 +678,8 @@ body {
 .recommended-destination {
   max-width: 1440px;
   max-height: 770px;
+  margin-top: 3.2rem;
+  margin-bottom: 3.5rem;
 }
 
 /* Header */
@@ -838,3 +840,18 @@ body {
   height: 1.06rem;
 }
 
+/* Reviews */
+
+.reviews{
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.nav-reviews{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
