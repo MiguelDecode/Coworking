@@ -843,7 +843,7 @@ body {
 /* Reviews */
 
 .reviews{
-  max-width: 1440px;
+  max-width: 1180px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -854,4 +854,26 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.review-container{
+  border: 1px solid red;
+  background-color: var(--clr-white);
+  width: 50%;
+  height: 25.625rem;
+}
+
+.img-quotation{
+  border: 5px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 25%;
+  position: absolute;
+  
+  width:8.1875rem;
+  height:6.5rem ;
+}
+#quotation{
+  width:8.1875rem;
+  height:6.5rem ;
 }
