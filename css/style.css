@@ -613,6 +613,44 @@ body {
   border: none;
 }
 
+.register__navFoot{
+  display: flex;
+  justify-content:space-between;
+  padding: 5rem;
+}
+
+.register__navFoot ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.register__navFoot ul li{ /*ojito ver si es necesario*/
+  display: inline;
+  position: relative;
+}
+
+.register__navFoot ul li a{
+  position: relative;
+  text-decoration: none;
+  color: var(--clr-black);
+  font-size: 1.25rem;
+  margin: 0 1rem;
+  padding: 1 rem 1rem;
+}
+
+.register__navFoot ul li a:hover {
+  color: var(--clr-white);
+  padding: 1rem 1rem;
+  background-color: var(--clr-blue);
+  border-radius: 16px;
+}
+
+.register__copyRight{
+  color: var(--clr-gray);
+  font-size: 1.25rem;
+}
+  /*
 .navFoot {
   display: flex;
   justify-content:space-between;
@@ -659,3 +697,4 @@ body {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
 }
+*/
