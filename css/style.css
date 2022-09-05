@@ -577,16 +577,8 @@ body {
 
 /* Section Register*/
 .register {
-  display: grid;
-  grid-template-columns: max-content;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 4rem;
-  position: absolute;
-  /*width: 100%;
-  height: 822px;
-  left: 0px;*/
+  max-width: 1440px;
+  margin: 4rem auto;
 }
 
 .cajaTexto {
