@@ -10,3 +10,26 @@
 | Damon              | 2, 3 y 4 |
 | Desarollador Ficho | 9        |
 | Daiana             | 7 y 8    |
+
+
+## Cosas a mejorar
+
+[ ] Que las secciones aparezcan de manera centrada y con un máximo igual al frame de figma.
+
+[ ] Que la imagen de portada no se repita y sea responsive.
+
+[ ] Reparar los enlaces a alguna de las imágenes en el buscador de viajes.
+
+[ ] Reparar fallo visual en la card final de la seccion de destination.
+
+[ ] Reparar la fuente en el selector de destination.
+
+[ ] Solucionar fallo ortográfico en el selector de Destination.
+
+[ ] Reparar el desplazamiento anormal en el menu del footer.
+
+[ ] El selector de Flight/Hotel en modo escritorio dispone de más espacio del necesario
+
+[ ]
+
+[ ]
