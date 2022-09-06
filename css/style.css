@@ -613,6 +613,11 @@ body {
   border: none;
 }
 
+.register__btn:hover{
+  color: var(--clr-white);
+  background-color: var(--clr-blue);
+}
+
 .register__navFoot{
   display: flex;
   justify-content:space-between;
