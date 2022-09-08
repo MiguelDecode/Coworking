@@ -40,6 +40,9 @@ body {
   padding: 30px;
   margin: 0;
   background-image: url("../assets/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 100%;
   width: 100%;
   z-index: 1;
@@ -115,9 +118,10 @@ body {
   font-size: 0.7rem;
   font-weight: 600;
   background-color: var(--clr-white);
+  max-width: 230px;
   width: 30%;
-  height: 4rem;
-  top: -6rem;
+  /* height: 4rem; */
+  top: -10rem;
   left: 20%;
   z-index: 2;
   border-radius: 15px 15px 0 0;
@@ -161,21 +165,25 @@ body {
 
 .search-box {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
   background-color: var(--clr-white);
   width: 100%;
-  height: 4rem;
-  top: -6rem;
+  /* height: 4rem; */
+  top: -10rem;
   left: 20%;
   z-index: 2;
-  border-radius: 0 40px 0 0;
-  padding: 40px 0 5px 0;
+  border-radius: 0 40px 40px 40px;
+  /* padding: 40px 0 5px 0; */
+  padding: 2rem 1rem;
 }
 
 .trip {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 225px;
   width: 33%;
   padding: 20px;
   margin: 0 0 0 40px;
@@ -207,6 +215,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 300px;
   width: 40%;
   padding: 20px;
   margin: 0 30px 0 30px;
@@ -255,6 +264,7 @@ body {
   padding: 20px;
   height: 100px;
   width: 100px;
+  min-width: 100px;
   border-radius: 40%;
 }
 
@@ -565,11 +575,11 @@ body {
   .about__cards--destination {
     right: 2rem;
   }
-  
+
   .about__cards--tourists {
     left: 2rem;
   }
-  
+
   .about__cards--hotels {
     right: 2rem;
   }
@@ -585,13 +595,13 @@ body {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 4rem;
-  background-image: url(../unsplash_Q1p7bh3SHj8.png);
+  background-image: url("../assets/register-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -613,29 +623,29 @@ body {
   border: none;
 }
 
-.register__btn:hover{
+.register__btn:hover {
   color: var(--clr-white);
   background-color: var(--clr-blue);
 }
 
-.register__navFoot{
+.register__navFoot {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   padding: 5rem;
 }
 
-.register__navFoot ul{
+.register__navFoot ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
 
-.register__navFoot ul li{
+.register__navFoot ul li {
   display: inline;
   position: relative;
 }
 
-.register__navFoot ul li a{
+.register__navFoot ul li a {
   position: relative;
   text-decoration: none;
   color: var(--clr-black);
@@ -651,7 +661,7 @@ body {
   border-radius: 16px;
 }
 
-.register__copyRight{
+.register__copyRight {
   color: var(--clr-gray);
   font-size: 1.25rem;
 }
@@ -684,7 +694,6 @@ body {
   max-width: 100%;
   height: 72px;
 }
-
 
 /* NavBar Recommended Destinations */
 
@@ -729,7 +738,7 @@ body {
   justify-content: space-between;
   align-items: center;
   max-width: 73.75rem;
-  height:18.75rem ;
+  height: 18.75rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -749,14 +758,13 @@ body {
 
 /* Cover Images */
 
-
 .star-img {
   width: 0.75rem;
   height: 0.75rem;
 }
 
 .cov-img {
- /*  margin-left: auto;
+  /*  margin-left: auto;
   margin-right: auto; */
   width: 16.5rem;
   height: 12.5rem;
@@ -818,7 +826,7 @@ body {
 
 /* Reviews */
 
-.reviews{
+.reviews {
   max-width: 1440px;
   height: 50.125rem;
   display: flex;
@@ -827,9 +835,8 @@ body {
   justify-content: center;
 }
 
-
-.review-articles-cointainer{
-  background-color: var(--clr-bg); 
+.review-articles-cointainer {
+  background-color: var(--clr-bg);
   width: 73.75rem;
   height: 29.0625rem;
   text-align: center;
@@ -837,9 +844,8 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 4rem;
-
 }
-.review-article{
+.review-article {
   display: flex;
   /* align-items: center;*/
   justify-content: center;
@@ -853,18 +859,18 @@ body {
   font-size: 1.25rem;
 }
 
-.img-quotation{
+.img-quotation {
   opacity: 25%;
   position: absolute;
   top: 2.8rem;
   left: 40%;
   transform: rotate(0.5turn);
-  width:8.1875rem;
-  height:6.5rem ;
+  width: 8.1875rem;
+  height: 6.5rem;
   margin-left: auto;
   margin-right: auto;
 }
-.image-reviewer{
+.image-reviewer {
   width: 50%;
   /* height: 80%; */
   object-fit: cover;
@@ -873,56 +879,56 @@ body {
   align-self: flex-end;
   position: relative;
 }
-.container-img-reviewer-rating{
+.container-img-reviewer-rating {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--clr-white);
   width: 11.29rem;
   height: 8.375rem;
-  position:absolute;
-  top:80%;
-  left:35%;
+  position: absolute;
+  top: 80%;
+  left: 35%;
   /* bottom: -10%; */
   border-radius: 75%;
 }
-.nav-reviews{
+.nav-reviews {
   display: inherit;
   justify-content: center;
   align-items: center;
- /*  width: 100%; */
+  /*  width: 100%; */
   height: 2.5rem;
 }
-.nav-btn{
+.nav-btn {
   margin: 1rem;
   padding-left: auto;
   padding-right: auto;
   border-color: var(--clr-blue);
   color: var(--clr-blue);
-  background-color:var(--clr-bg) ;
-  border-radius:0.8rem;
+  background-color: var(--clr-bg);
+  border-radius: 0.8rem;
   height: 100%;
   width: 2.3rem;
   font-size: 2rem;
 }
-.quote-text{
+.quote-text {
   color: var(--clr-black);
 }
-.review-section{
+.review-section {
   display: flex;
   padding: 1rem;
   display: inherit;
   justify-content: center;
   align-items: center;
 }
-.reviewer-name{
+.reviewer-name {
   color: var(--clr-blue);
   padding-bottom: 1rem;
 }
-.reviewer-from{
+.reviewer-from {
   color: rgba(0, 0, 0, 0.5);
 }
-.rat-container{
+.rat-container {
   width: 2.8rem;
   position: absolute;
   top: 30%;
@@ -931,16 +937,16 @@ body {
   background-color: var(--clr-white);
   border-radius: 35.56rem;
 }
-.star-img{
+.star-img {
   width: 0.75rem;
   height: 0.75rem;
 }
-.review{
-  width:31.75rem;
+.review {
+  width: 31.75rem;
   font-weight: 500;
   color: hsla(0, 0%, 0%, 1);
-} 
-.rating-container-span{
+}
+.rating-container-span {
   display: flex;
   justify-content: center;
   align-items: center;
