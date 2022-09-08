@@ -16,11 +16,11 @@
 
 [ ] Que las secciones aparezcan de manera centrada y con un máximo igual al frame de figma.
 
-[ ] Que la imagen de portada no se repita y sea responsive.
+[X] Que la imagen de portada no se repita y sea responsive.
 
-[ ] Reparar los enlaces a alguna de las imágenes en el buscador de viajes.
+[X] Reparar los enlaces a alguna de las imágenes en el buscador de viajes.
 
-[ ] Reparar fallo visual en la card final de la seccion de destination.
+[X] Reparar fallo visual en la card final de la seccion de destination.
 
 [ ] Reparar la fuente en el selector de destination.
 
@@ -28,7 +28,7 @@
 
 [ ] Reparar el desplazamiento anormal en el menu del footer.
 
-[ ] El selector de Flight/Hotel en modo escritorio dispone de más espacio del necesario
+[X] El selector de Flight/Hotel en modo escritorio dispone de más espacio del necesario
 
 [ ]
 
