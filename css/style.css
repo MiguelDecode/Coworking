@@ -829,6 +829,8 @@ body {
 .reviews {
   max-width: 1440px;
   height: 50.125rem;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
