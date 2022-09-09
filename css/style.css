@@ -672,7 +672,9 @@ body {
 
 .recommended-destination {
   max-width: 1440px;
-  max-height: 770px;
+  /* max-height: 770px; */
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 3.2rem;
   margin-bottom: 3.5rem;
 }
